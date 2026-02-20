@@ -1,0 +1,45 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+env/
+venv/
+.venv/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Node
+node_modules/
+
+# Caches, tests, IDEs
+.cache
+.pytest_cache
+.mypy_cache
+.coverage
+coverage.xml
+.idea
+.vscode
+.DS_Store
+
+# Environment files and secrets
+.env
+.env.*
+
+# Database / runtime data (managed outside container)
+pgdata/
+opdata/
+backups/
+
+# Logs and temp
+logs/
+tmp/
+*.log
+
+# Git metadata
+.git
+.gitignore
